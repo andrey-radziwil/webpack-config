@@ -4,7 +4,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
-let mode = "development";
+let mode = "production";
 
 if (process.env.NODE_ENV === "production") {
   mode = "production";
